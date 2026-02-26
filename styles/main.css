@@ -1,0 +1,50 @@
+.default-button {
+    background-color: #009830;
+    color: white;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.default-button:hover {
+    background-color: #007c27;
+    color: #e9ecef;
+    border-radius: 3px;
+}
+.default-header {
+    background-color: #009830;
+    color: white;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 4px;
+
+    font-size: 16px;
+    font-family: 'Segoe UI';
+
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.default-text {
+    color: white;
+    padding: 5px 30px;
+    border: none;
+
+    font-size: 16px;
+    font-family: 'Segoe UI';
+
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.default-body {
+    background-color: rgb(233, 233, 233);
+
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.default-footer {
+    background-color: #007c27;
+    border-radius: 0px;
+
+    margin-top: 50%;
+    padding: 100px 15%;
+}

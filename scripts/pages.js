@@ -3,8 +3,8 @@ function goto_page(id) {
         case "homepage":
             set_page("./index.html");
             break;
-        case "projects":
-            set_page("./projects.html");
+        case "github":
+            set_page("https://github.com/celloffstudio");
             break;
         case "twitter":
             set_page("https://twitter.com/Celloff___");

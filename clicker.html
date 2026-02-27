@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Clicker</title>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="icon" type="image/x-icon" href="./resources/favicons/clicker.png">
+
+        <script src="scripts/main.js"></script>
+        <script src="scripts/pages.js"></script>
+        <script src="scripts/clicker/game.js"></script>
+    </head>
+    <body class="default-body">
+        <input type="button" class="default-button" value="Homepage" onclick="goto_page('homepage')">
+        <input type="button" class="default-button" value="Return" onclick="goto_page('fun')">
+        <p></p>
+        <div>
+            <label id="clicks" class="default-text-bg">Clicks: 0</label>
+            <p></p>
+            <input type="button" class="default-button" value="Click" onclick="game.Click()">
+            <div id="upgrades-div">
+
+            </div>
+        </div>
+    </body>
+</html>

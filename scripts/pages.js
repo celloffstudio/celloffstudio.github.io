@@ -12,6 +12,12 @@ function goto_page(id) {
         case "itch":
             set_page("https://celloff.itch.io/");
             break;
+        case "fun":
+            set_page("./fun.html");
+            break;
+        case "clicker":
+            set_page("./clicker.html");
+            break;
         default:
             set_page("./index.html");
             break;

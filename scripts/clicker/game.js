@@ -7,7 +7,7 @@ class Game {
     }
     Click() {
         game.clicks += game.cpc;
-        PlayAudio("resources/pages/clicker/click.mp3?raw=true", 1);
+        PlayAudio("resources/pages/clicker/click.mp3", 1);
         UpdateUI(this);
     }
     Upgrade(id) {

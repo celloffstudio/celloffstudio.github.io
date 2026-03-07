@@ -14,6 +14,11 @@
     color: #e9ecef;
     border-radius: 0px;
 }
+.default-button:active {
+    color: #e9ecef;
+    border-radius: 0px;
+    transform: scale(1.07);
+}
 .default-header {
     background-color: #3d6f70;
     color: white;

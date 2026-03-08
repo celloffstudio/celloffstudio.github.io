@@ -45,5 +45,5 @@ var game = new Game(0,1,[
 function UpdateUI(game) {
     document.getElementById('clicks').textContent = "Clicks: " + game.clicks;
 
-    document.getElementById('u0').value = "More clicks!!! (+1 Cost:" + game.prices[0] + ")";
+    document.getElementById('u0').textContent = "More clicks!!! (+1 Cost:" + game.prices[0] + ")";
 }

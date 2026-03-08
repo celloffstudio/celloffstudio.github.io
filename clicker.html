@@ -11,15 +11,15 @@
         
     </head>
     <body class="default-body">
-        <input type="button" class="default-button" value="Homepage" onclick="goto_page('homepage')">
-        <input type="button" class="default-button" value="Return" onclick="goto_page('fun')">
+        <button class="default-button" onclick="goto_page('homepage')">Homepage</button>
+        <button class="default-button" onclick="goto_page('fun')">Return</button>
         <p></p>
         <div>
             <label id="clicks" class="default-text-bg">Clicks: 0</label>
             <p></p>
-            <input type="button" class="default-button" value="Click?" onclick="game.Click()">
+            <button class="default-button" onclick="game.Click()">Click?</button>
             <div id="upgrades-div">
-                <input id="u0" type="button" class="default-button" value="???" onclick="game.Upgrade(0)">
+                <button id="u0" class="default-button" onclick="game.Upgrade(0)">???</button>
             </div>
         </div>
     </body>

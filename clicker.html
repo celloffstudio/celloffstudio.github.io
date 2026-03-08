@@ -13,13 +13,30 @@
     <body class="default-body">
         <button class="default-button" onclick="goto_page('homepage')">Homepage</button>
         <button class="default-button" onclick="goto_page('fun')">Return</button>
+        <label class="default-text-bg">Version 1</label>
         <p></p>
         <div>
             <label id="clicks" class="default-text-bg">Clicks: 0</label>
+            <label id="money" class="default-text-bg">Money: 0</label>
             <p></p>
             <button class="default-button" onclick="game.Click()">Click?</button>
+            <p></p>
             <div id="upgrades-div">
-                <button id="u0" class="default-button" onclick="game.Upgrade(0)">???</button>
+                <div id="upgrades-l1-div">
+                    <label id="l1" class="default-text-bg">&lt Level 1 &gt</label>
+                    <p></p>
+                    <button id="u0" class="default-button" onclick="game.Upgrade(0,0)">???</button>
+                    <p></p>
+                    <button id="u1" class="default-button" onclick="game.Upgrade(1,0)">???</button>
+                    <p></p>
+                    <button id="u2" class="default-button" onclick="game.Upgrade(2,1)">???</button>
+                    <p></p>
+                    <button id="u3" class="default-button" onclick="game.Upgrade(3,0)">???</button>
+                </div>
+                <p></p>
+                <div style="display: none;" id="upgrades-l2-div">
+                    <label id="l2" class="default-text-bg">&lt Level 2 &gt</label>
+                </div>
             </div>
         </div>
     </body>
